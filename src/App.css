@@ -1,0 +1,128 @@
+/* App Components */
+
+.container{
+    height: 100 vh;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Heading Component */
+
+.name{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666262;
+}
+
+/* Card Component */
+
+.card{
+   width: 60%;
+   min-height: 300px;
+   max-height: auto;
+   border-radius: 5px;
+   padding: 20px;
+   box-shadow: 0 0 5px rgb(91, 87, 87);
+}
+
+/* Input Component */
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0;
+}
+
+.header input {
+   flex: 1;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-right: 10px;
+}
+
+.header button {
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   background-color: #6C63FF;
+   color: white;
+   cursor: pointer;
+}
+
+.header button:hover {
+   background-color: #5a5cce;
+}
+
+.inputbut{
+     gap: 10px;
+     width: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+/* TodoList Components */
+
+.empty-state{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lists{
+    padding: 10px;
+    height: auto;
+}
+
+/* TodoItems Components */
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid#ccc;
+    padding-bottom: 8px;
+    margin-top: 8px ;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 30px;
+}
+
+.buttons button{
+    padding: 4px;
+    cursor: pointer;
+}
+
+.edit{
+  background: rgb(86, 250, 86);
+  border: none;
+  color: white;
+  border-radius:2px ;
+}
+
+.edit:hover{
+    background: rgb(2, 251, 2);
+}
+
+.delete{
+    background: rgb(245, 79, 79);
+    border: none;
+    color: white;
+    border-radius:2px ;
+}
+
+.delete:hover{
+    background: red;
+}

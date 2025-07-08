@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.container.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.theme-toggle {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #888;
+  color: white;
+  border-radius: 5px;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: inherit;
+  color: inherit;
+}
+
+/* Other elements will inherit theme colors! */
+.header input, .header button {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid #ccc;
+}
+
+.items {
+  background-color: inherit;
+  border: 1px solid #444;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.items .buttons button {
+  background-color: #555;
+  color: white;
+  border: none;
+  margin: 0 0.25rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
